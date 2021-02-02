@@ -203,9 +203,6 @@ li a{
 .middle{
   background-color: #F4F5F7;
   height: 150px;
-  width: 100%;
-  left: 0;
-  top: 740px;
 }
 .mtext1{
   font-family: Inter;
@@ -219,6 +216,7 @@ li a{
 .mtext2{
   padding-top: 50px;
   padding-left: 100px;
+  width: 100%;
 }
 .big-test3{
   width: 591px;
