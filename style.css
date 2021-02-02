@@ -26,7 +26,7 @@ li a{
 }
 .ip1{
   border-color: #ababac;
-  text-color: #d2d2d3;
+  caret-color: #d2d2d3;
   padding: 10px;
   border-style: solid;
   outline: none;
@@ -41,24 +41,25 @@ li a{
   line-height: 20px;
 }
 .ipb{
-  margin-top: -30px;
+  margin-top: -60px;
   margin-left: -200px;
   width: 176px;
   height: 64px;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
 }
-.imgcontainer
-{
+.imgcontainer{
 	text-align: center;
 	margin: 20px 0 10px 0;
 	position: relative;
 }
-.container
-{
+.container{
 	padding: 16px;
 }
 /* The Modal (background) */
-.modal
-{
+.modal{
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
@@ -71,97 +72,77 @@ li a{
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   padding-top: 50px;
 }
-			
-			/* Modal Content/Box */
-			.modal-content
-			{
-				background-color: #262626;
-				margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-				border: 0px solid #888;
-        width: 50%; /* Could be more or less, depending on screen size */
-			}
-			
-			/* The Close Button (x) */
-			.close
-			{
-				position: absolute;
-				right: 25px;
-				top: 0;
-				color: #fff;
-				font-size: 35px;
-				font-weight: bold;
-			}
-			
-			.close:hover,.close:focus
-			{
-				color: black;
-				cursor: pointer;
-			}
-			
-			/* Add Zoom Animation */
-			.animate
-			{
-				-webkit-animation: animatezoom 0.6s;
-				animation: animatezoom 0.6s
-			}
-			
-			@-webkit-keyframes animatezoom
-			{
-				from {-webkit-transform: scale(0)}
-				to {-webkit-transform: scale(1)}
-			}
-			
-			@keyframes animatezoom
-			{
-				from {transform: scale(0)}
-				to {transform: scale(1)}
-			}
-			
-			/* Change styles for span and cancel button on extra small screens */
-			@media screen and (max-width: 300px)
-			{
-				.cancelbtn
-				{
-					width: 100%;
-				}
-      }
-      .login-box h2{
-        margin: 0 0 30px;
-				font-size: 35px;
-				padding: 0;
-				text-align: center;
-      }
-      .login-box .container .user-box
-			{
-				position: relative;
-			}
-      .login-box .container .user-box input{
-        width: 50em;
-        height: 3em;
-        font-size: 1em;
-        border-style: solid;
-				outline: none;
-				background: transparent;
-        border-color: #ddd;
-        border-radius: 10px;
-      }
-      .login-box .container .user-box label
-			{
-				top: 0;
-				left: 0;
-				padding: 10px 0;
-				font-size: 16px;
-				color: black;
-				pointer-events: none;
-				transition: .5s;
-      }
-      .login-box .container button{
-        position: relative;
-        margin-left: 350px;
-      }
-
-      
-      
+/* Modal Content/Box */
+.modal-content{
+	background-color: #262626;
+	margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+	border: 0px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+/* The Close Button (x) */
+.close{
+	position: absolute;
+	right: 25px;
+	top: 0;
+	color: #fff;
+	font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,.close:focus{
+	color: black;
+	cursor: pointer;
+}
+/* Add Zoom Animation */
+.animate{
+	-webkit-animation: animatezoom 0.6s;
+	animation: animatezoom 0.6s
+}
+@-webkit-keyframes animatezoom{
+	from {-webkit-transform: scale(0)}
+	to {-webkit-transform: scale(1)}
+}
+@keyframes animatezoom{
+	from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px){
+  .cancelbtn{
+		width: 100%;
+	}
+}
+.login-box h2{
+  margin: 0 0 30px;
+	font-size: 35px;
+	padding: 0;
+	text-align: center;
+}
+.login-box .container .user-box{
+	position: relative;
+}
+.login-box .container .user-box input{
+  width: 50em;
+  height: 3em;
+  font-size: 1em;
+  border-style: solid;
+	outline: none;
+	background: transparent;
+  border-color: #ddd;
+  border-radius: 10px;
+}
+.login-box .container .user-box label{
+	top: 0;
+	left: 0;
+	padding: 10px 0;
+	font-size: 16px;
+	color: black;
+  pointer-events: none;
+	transition: .5s;
+}
+.login-box .container button{
+  position: relative;
+  margin-left: 330px;
+}
 .big-test1{
   margin-top: 150px;
   margin-left: 80px;
@@ -226,7 +207,7 @@ li a{
   left: 0;
   top: 740px;
 }
-.text2{
+.mtext1{
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
@@ -234,6 +215,10 @@ li a{
   padding-top: 30px;
   padding-left: 100px;
   color: black;
+}
+.mtext2{
+  padding-top: 50px;
+  padding-left: 100px;
 }
 .big-test3{
   width: 591px;
